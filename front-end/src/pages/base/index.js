@@ -39,7 +39,7 @@ class App extends React.Component {
       <div className="base">
         <BrowserRouter>
           <header className="App-header">
-          <Navbar className="lightblue" expand="all" fixed="top" onToggle={this.barSelect.bind(this)}>
+          <Navbar className="lightblue" expand="all" onToggle={this.barSelect.bind(this)}>
             <NavItem as="div" className="btn-home">
               <Link to="/"><img src={home} alt="home" width="40" height="40" /></Link>
             </NavItem>
